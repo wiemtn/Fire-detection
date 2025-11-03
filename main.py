@@ -45,9 +45,9 @@ Why Roboflow for Fire Detection?
 # === CONFIGURATION ===
 
 # Email Configuration
-EMAIL_SENDER = "zakraouiwiem@gmail.com"
-EMAIL_PASSWORD = "kzzi jekt nymj rlhk"
-EMAIL_RECEIVER = "zakraouiwiem@gmail.com"
+EMAIL_SENDER = "@gmail.com"
+EMAIL_PASSWORD = ""
+EMAIL_RECEIVER = ""
 EMAIL_SUBJECT = "🚨 Fire Detection Alert!"
 
 # Video Recording Configuration
@@ -60,15 +60,11 @@ if not os.path.exists(VIDEO_OUTPUT_DIR):
 model = YOLO("best.pt")
 
 # WhatsApp Configuration
-WHATSAPP_NUMBER = "+21650852180"  
+WHATSAPP_NUMBER = ""  
 
-# Twilio Configuration (commented out until properly configured)
-# TWILIO_ACCOUNT_SID = "ACbd337248e7718753c1a2a9b2b882db86"
-# TWILIO_AUTH_TOKEN = "dd24f89038dac3f028c896e88a8aee3f"
-# TWILIO_PHONE_NUMBER = "19183933506"
 
-TELEGRAM_BOT_TOKEN = "7840954461:AAGI8i4X5MljPmTbuuIniApFcWD4fE05jZc"
-TELEGRAM_CHAT_ID = "910266840"
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 
 # Alarm file path (must be a short .wav file)
 ALARM_PATH = "alarm.wav"
